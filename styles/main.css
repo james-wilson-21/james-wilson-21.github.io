@@ -1,17 +1,21 @@
 h1 {
     background-color: #336B87;
-    color: #2A3132;
+    color: #763626;
     text-align: center;
 }
 .thick-black-border {
-    border-color: #763626;
+    border-color: #2A3132;
     border-width: 2px;
     border-style: solid;
     border-radius: 10px;
-    margin: 20px 50px 20px 50px;
+    margin: auto;
     padding: 10px;
 }
 
 body {
     background-color: #90AFC5;
   }
+
+p {
+    margin-left: 50px;
+}
