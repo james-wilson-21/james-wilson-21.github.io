@@ -8,11 +8,7 @@ h1 {
     border-width: 2px;
     border-style: solid;
     border-radius: 10px;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 300px;
-    margin-right: 300px;
-    padding: 10px;
+    margin: 300px;
 }
 
 body {
@@ -20,5 +16,8 @@ body {
   }
 
 p {
+    margin-left: 50px;
+}
+ol {
     margin-left: 50px;
 }
