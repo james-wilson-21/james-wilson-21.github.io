@@ -1,13 +1,15 @@
 h1 {
-    background-color: #5F4B8BFF;
-    color: #E69A8DFF;
+    background-color: #590830;
+    color: #90AA3C;
 }
 .thick-black-border {
     border-color: #000000;
     border-width: 10px;
     border-style: solid;
+    margin: 20px;
+    padding: 10px;
 }
 
 body {
-    
+    background-color: #EF6125;
   }
