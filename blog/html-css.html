@@ -14,6 +14,7 @@
     
     body {
         background: #000;
+        text-align: center;
       }
     h1 {
         color: #00ff41;
@@ -39,8 +40,18 @@
         font-family: Consolas;
         font-size: 16px;
         font-weight: 300;
+        margin-left: 150px;
+        margin-right: 150px;
     }
-    
+    .block {
+        display: inline;
+        
+    }
+    #block-size {
+        margin: 40 40 40 40;
+        width: 300px;
+        height: 300px;
+    }
     </style>
     
     <html>
@@ -62,8 +73,14 @@
             will be displayed as a block with no other elements next to it. That means it will have 
             white space above and below it. 
             </p>
+            <div class="block">
+                <img id="block-size" src="https://james-wilson-21.github.io/img/blog-block.JPG"> 
+                </div> 
+                <div class="block">
+                <img id="block-size" src="https://james-wilson-21.github.io/img/block-example.JPG">  
+                </div>
+            </div>
             
-            <inline and block examples>
             
             <h3>So what about inline-block?</h3>
            <p>Inline-block elements are a little bit different. They are formatted like an inline element
@@ -74,7 +91,21 @@
             set width and height.
             And like an inline element, you can sit it it next to other elements as there is no line break
             straight after the element.</p>
-            
-            <inline-block example>
+            <div>
+                <div class="block">
+                <img id="block-size" src="https://james-wilson-21.github.io/img/blog-inline.JPG"> 
+                </div> 
+                <div class="block">
+                <img id="block-size" src="https://james-wilson-21.github.io/img/inline-example.JPG">  
+                </div>
+            </div>
+            <div>
+                <div class="block">
+                <img id="block-size" src="https://james-wilson-21.github.io/img/blog-inline-block.JPG"> 
+                </div> 
+                <div class="block">
+                <img id="block-size" src="https://james-wilson-21.github.io/img/inline-block-example.JPG">  
+                </div>
+            </div>
         </body>
     </html>
