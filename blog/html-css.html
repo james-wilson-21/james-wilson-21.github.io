@@ -1,0 +1,80 @@
+<style>
+    #container {
+        font-size: 55px;
+        min-height: 100px;
+        width: 100%;
+        height: 200px;
+        background: hsl(#336B87 90% 40%);
+        display: flex;
+        text-align: center;
+        align-items: center;
+        gap: 0px 10px;          
+    }
+  
+    
+    body {
+        background: #000;
+      }
+    h1 {
+        color: #00ff41;
+        font-family: Consolas;
+        font-size: 50px;
+        font-weight: 400;
+        margin: 50px 0 0 0;
+        text-align: center;
+    }
+    h2 {
+        color: #00ff41;
+        font-family: Consolas;
+        font-size: 16px;
+        font-weight: 100;
+        letter-spacing: 2px;
+        margin: 50px 0 0 0;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    
+    p {
+        color: #00ff41;
+        font-family: Consolas;
+        font-size: 16px;
+        font-weight: 300;
+    }
+    
+    </style>
+    
+    <html>
+        <head>
+            <link rel="stylesheet" type= "text/css" href="\styles\main.css">
+            <title>James' Blog</title>
+        </head>
+        <body>
+
+        <h2>Week 2 - display: inline vs inline-blocks</h2>
+
+        <p>CSS has a 'display' property which sets whether an element (such as a paragraphs 
+            and heading tags) is treated as a 'block' or 'inline'. display: block creates 
+            a block-level element and display: inline creates an inline-level element...</p>
+            
+            <h3>Okay what does that mean?</h3>
+            <p>With the <a href="https://en.wikipedia.org/wiki/CSS_box_model">CSS box model</a>, the block level elements break up the flow
+            of a document, whereas inline elements flow on. Even more specifically block level elements
+            will be displayed as a block with no other elements next to it. That means it will have 
+            white space above and below it. 
+            </p>
+            
+            <inline and block examples>
+            
+            <h3>So what about inline-block?</h3>
+           <p>Inline-block elements are a little bit different. They are formatted like an inline element
+            but behave like a block element. </p> 
+            
+        <h3>Uhhhh...</h3>
+            <p>Well, like a block element, the margins and padding are respected and you can also
+            set width and height.
+            And like an inline element, you can sit it it next to other elements as there is no line break
+            straight after the element.</p>
+            
+            <inline-block example>
+        </body>
+    </html>
