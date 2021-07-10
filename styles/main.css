@@ -58,7 +58,17 @@ h1 {
 h2 {
   	color: #00ff41;
   	font-family: Consolas;
-  	font-size: 16px;
+  	font-size: 20px;
+  	font-weight: 100;
+  	letter-spacing: 2px;
+  	margin: 50px 0 0 0;
+  	text-align: center;
+  	text-transform: uppercase;
+}
+h3 {
+	color: #00ff41;
+  	font-family: Consolas;
+  	font-size: 18px;
   	font-weight: 100;
   	letter-spacing: 2px;
   	margin: 50px 0 0 0;
