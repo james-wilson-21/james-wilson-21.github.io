@@ -1,34 +1,33 @@
 #container {
-	font-size: 55px;
-    min-height: 100px;
-    width: 100%;
+	font-size: 5vw;
+    	min-height: 100px;
 	height: 200px;
-    background: hsl(#336B87 90% 40%);
+    	background: hsl(#336B87 90% 40%);
 	display: flex;
 	text-align: center;
-	align-items: center;
-	gap: 0px 10px;	
+	
+	position: sticky;	
 }
 #blog-title {
-	width: 100%;
-  	overflow: hidden;
-  	text-overflow: ellipsis;
+	min-width: 25%;
    	height: 100%;
 	background: #262626;
 	color: #00ff41;
-	font-size: 100%;
 	font-family: Consolas;
-    border-color: #2A3132;
+    	border-color: #2A3132;
    	border-style: solid;
-    border-radius: 10px;
+    	border-radius: 10px;
 }
 #pic1 {
 	height: 100%;
+	max-width: 100%;
 }
 #pic2 {
    	height: 100%;
+	max-width: 100%;
 	
 }
+
 .james-round-border {
 	border-color: #000;
 	border-style: solid;
@@ -42,6 +41,12 @@
     border-radius: 50%;
 	width: 200px;
 	height: 200px;
+}
+
+.blog-square {
+	border: #000;
+	border-style: solid;
+	border-radius: 10px;
 }
 
 body {
