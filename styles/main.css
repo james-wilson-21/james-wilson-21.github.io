@@ -126,3 +126,15 @@ p {
 }
 	
 }
+
+@media  (max-width:400px) {
+	p {
+		color: #00ff41;
+    	font-family: Consolas;
+ 		font-size: 16px;
+ 		font-weight: 300;
+		margin:auto;
+	}
+	
+	
+	}
