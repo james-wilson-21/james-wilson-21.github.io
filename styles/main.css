@@ -10,7 +10,7 @@
 }
 #blog-title {
 	min-width: 25%;
-   	height: 100%;
+   	height: auto;
 	background: #262626;
 	color: #00ff41;
 	font-size: 5vw;
@@ -21,10 +21,6 @@
 }
 #pic1 {
 	height: 100%;
-	max-width: 100%;
-}
-#pic2 {
-   	height: 100%;
 	max-width: 100%;
 }
 
