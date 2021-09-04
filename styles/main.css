@@ -107,3 +107,13 @@ p {
 .row {
 	width: 100%
 }
+
+@media  (max-width:400px) {
+.pic1{
+	display: none;
+}
+.list-pics {
+	display: none;
+}
+	
+}
