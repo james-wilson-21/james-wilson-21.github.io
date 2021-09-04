@@ -1,11 +1,11 @@
+
 #container {
 	font-size: 5vw;
-    	min-height: 100px;
+    min-height: 100px;
 	height: 200px;
-    	background: hsl(#336B87 90% 40%);
+    background: hsl(#336B87 90% 40%);
 	display: flex;
 	text-align: center;
-	
 	position: sticky;	
 }
 #blog-title {
@@ -14,9 +14,9 @@
 	background: #262626;
 	color: #00ff41;
 	font-family: Consolas;
-    	border-color: #2A3132;
+    border-color: #2A3132;
    	border-style: solid;
-    	border-radius: 10px;
+    border-radius: 10px;
 }
 #pic1 {
 	height: 100%;
@@ -50,8 +50,8 @@
 }
 
 body {
-    	background: #000;
-		text-align: center;
+	background: #000;
+	text-align: center;
   }
 h1 {
   	color: #00ff41;
@@ -103,4 +103,16 @@ p {
 	margin: 40 40 40 40;
 	width: 300px;
 	height: 300px;
+}
+.row {
+	width: 100%
+}
+.col-1 {
+	width: 20%
+}
+.col-2 {
+	width: 60%
+}
+.col-3 {
+	width: 20%
 }
