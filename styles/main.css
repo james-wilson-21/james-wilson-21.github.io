@@ -91,6 +91,7 @@ p {
 	margin-right: 150px;
 }
 #list-layout {
+	display: flex;
     position: relative;
   	text-align: center;
   	top: 30px;
@@ -111,13 +112,4 @@ p {
 }
 .row {
 	width: 100%
-}
-.col-1 {
-	width: 20%
-}
-.col-2 {
-	width: 60%
-}
-.col-3 {
-	width: 20%
 }
