@@ -112,13 +112,11 @@ p {
 }
 
 @media  (max-width:40em) {
-.pic1{
+.pic1 img {
 	display: none;
 }
-.list-pics:before {
-	content: attr(data-alt);
-}
-.list-pics {
+
+#list-pics img {
 	display: none;
 }
 	
