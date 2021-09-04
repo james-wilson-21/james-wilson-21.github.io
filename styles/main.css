@@ -41,6 +41,7 @@
 }
 
 
+
 body {
 	background: #000;
 	text-align: center;
@@ -56,14 +57,16 @@ h1 {
 
 h2 {
 	display: flex;
-  	color: #00ff41;
-  	font-family: Consolas;
-  	font-size: 20px;
-  	font-weight: 100;
-  	letter-spacing: 2px;
-  	margin: 50px 0 0 0;
-  	align-items: center;
-  	text-transform: uppercase;
+    color: #00ff41;
+    font-family: Consolas;
+    font-size: 20px;
+    font-weight: 100;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    flex-direction: column;
+    align-content: center;
+    position: relative;
 }
 h3 {
 	color: #00ff41;
