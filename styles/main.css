@@ -1,6 +1,5 @@
 
 #container {
-	font-size: 5vw;
     min-height: 100px;
     height: 200px;
     background: hsl(#336B87 90% 40%);
@@ -14,6 +13,7 @@
    	height: 100%;
 	background: #262626;
 	color: #00ff41;
+	font-size: 5vw;
 	font-family: Consolas;
     border-color: #2A3132;
    	border-style: solid;
@@ -26,22 +26,14 @@
 #pic2 {
    	height: 100%;
 	max-width: 100%;
-	
 }
 
-.james-round-border {
+.round-border {
 	border-color: #000;
 	border-style: solid;
 	border-radius: 50%;
 	width: 200px; 
-	height: 200px;
-}
-.cat-round-border {  
-	border-color: #000;
-	border-style: solid;
-    border-radius: 50%;
-	width: 200px;
-	height: 200px;
+	height: auto;
 }
 
 .blog-square {
